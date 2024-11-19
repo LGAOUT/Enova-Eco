@@ -1,0 +1,23 @@
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #006b3c;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+
+.logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo span {
+    color: #004d29; /* Couleur différente pour 'Eco' */
+}
+
+.logo:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
